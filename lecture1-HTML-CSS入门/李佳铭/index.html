@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Ljm's Blog</title>
+          <link rel="stylesheet" type="text/css" href="blog.css">
+        <!--todo-->
+    </head>
+
+    <body>
+        <div id="wrapper">
+
+            <!-- 网页头部，包括导航栏和大标题 -->
+            <header id="header">
+                <h1>Ljm's Blog</h1>
+                <!--todo-->
+                <nav>
+                    <ul class="navigator">
+                        <li class="nav-item">
+                            <a href="#">
+                                <span class="text">文章</span>
+                            </a>
+                            &nbsp;<br/>
+                            <a href="http://www.baidu.com">
+                                <span class="text">相册</span>
+                            </a>
+                            &nbsp;<br/>
+                            <a href="http://www.baidu.com">
+                                <span class="text">关于</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--todo-->
+            </header>
+
+             <!-- 相册 -->
+            <div id="gallery">
+                <div class="gallery-heading">
+                    <div class="gallery-icon">
+                        <img src="img/gallery-icon.png" alt="gallery-icon">
+                        <!-- todo -->
+                    </div>
+                    <br/>
+                    <br/>
+                    <h2>MY GALLERY</h2>
+                    <p class="time">2015-10-25 19:00:00</p>
+                </div>
+
+                <ul class="gallery-slides">
+                    <li class="gallery-slide">
+                        <img src="img/slide-1.jpg" alt="slide-1">                  
+                    </li>
+                    <li class="gallery-slide">
+                        <img src="img/slide-2.jpg" alt="slide-2">                  
+                    </li>                    
+                    <li class="gallery-slide">
+                        <img src="img/slide-3.jpg" alt="slide-3">                  
+                    </li>                    
+                    <!-- todo -->
+                </ul>
+            </div>
+
+             <!-- 发布评论 -->
+            <div id="comment">
+                <div class="comment-textarea">
+                    <img src="img/avatar-default.png" alt="avatar-default">
+                    <textarea class="comment" placeholder="说点什么吧~~"></textarea>
+                </div>
+                <button class="comment-submit">发布</button>
+            </div>
+
+             <!--评论列表-->
+            <div id="comments-list">
+                <div class="comments-count">
+                    共 <span id="number">1</span> 条评论
+                </div>
+                <ul class="comments">
+                    <li class="comment-item">
+                        <p>
+                            我是评论啦啦啦~~~大家要按时完成作业啦啦啦~~~
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </body>
+
+</html>

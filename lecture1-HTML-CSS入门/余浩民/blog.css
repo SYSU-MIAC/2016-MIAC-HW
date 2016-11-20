@@ -1,0 +1,171 @@
+﻿* {
+    font-family: 'Microsoft YaHei', Helvetica, sans-serif;
+}
+
+body {
+    background: url(img/background.jpg) fixed;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* 最外层容器样式 */
+#wrapper {
+    width: 75%;
+    background-image: url('./img/wrapper-background.png');
+    background-repeat: repeat;
+    margin: auto;
+}
+
+/* 头部header的样式 */
+#header h1 {
+	font: lighter 96px "Century Gothic",Futura,Verdana,sans-serif;
+	color: #D5D5D5;
+}
+
+/*导航栏nav链接的样式*/
+#header nav ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+#header nav ul li {
+	display: inline-block;
+	flex: 0.33;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #222;
+}
+
+#header nav ul li:first-child {
+	flex: 0.34;
+}
+
+#header nav ul li:hover {
+	background-color: cadetblue;
+}
+
+#header nav ul li a {
+    text-decoration: none;
+	color: white;
+}
+
+/* 相册样式 */
+#gallery {
+	background-color: #DFF5FF;
+}
+
+.gallery-heading {
+	display: flex;
+}
+
+.gallery-heading h2 {
+    font-weight: lighter;
+    font-size: 28px;
+    color: #61AABC;
+	display: inline-block;
+}
+
+/*相册中icon的样式*/
+.gallery-heading .gallery-icon img  {
+	height: 60px;
+	width: 60px;
+	display: inline-border;
+	margin: 10px;
+}
+
+
+/*相册中时间的样式*/
+.gallery-heading .time {
+	color: #656565;
+	text-align: right;
+	font: lighter 15px;
+	margin: 30px;
+	flex: 1;
+}
+
+.gallery-slides {
+	list-style: none;
+	padding: 0;
+}
+
+.gallery-slides li img {
+	width: 100%;
+}
+
+/*评论输入框*/
+.comment-textarea input.comment {
+    height: 54px;
+    width: 90%;
+	margin: 4%;
+	margin-bottom: 1%;
+	padding: 1px 7px;
+    font-size: 13px;
+    line-height: 20px;
+	border: none;
+    color: #999;
+	background-color: #EEE;
+}
+
+.comment-textarea input.comment:hover {
+	background-color: #FFF;
+}
+
+button.comment-submit {
+	margin-right: 4%;
+	margin-bottom: 10px;
+	padding: 2px 15px;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #555;
+	border: none;
+	cursor: pointer;
+	float: right
+}
+
+button.comment-submit:hover {
+	background-color: cadetblue;
+}
+
+/*评论列表*/
+.comments-count {
+    font-size: 13px;
+    color: #fff;
+}
+
+#comments-list {
+	margin: 30px 0;
+	display:inline-flex;
+	width: 75%;
+}
+
+#comments-list .comments-count {
+	margin: 0 5%;
+}
+
+#comments-list .comments-count span {
+	color: #D32;
+}
+
+#comments-list .comments {
+	padding: 0;
+	list-style: none;
+	width: 100%;
+}
+
+.comment-item {
+    border-bottom: 1px solid #fff;
+}
+
+.comment-item:first-child {
+    border-top: 1px solid #fff;
+}
+
+.comment-item p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.5em;
+}

@@ -1,0 +1,136 @@
+* {
+    font-family: 'Microsoft YaHei', Helvetica, sans-serif;
+}
+
+body {
+    /* todo */
+	background-image:url("img/background.jpg");
+	background-attachment:fixed;
+	margin: 0 auto;
+	padding:0;
+}
+
+h1, h2 {
+    /* todo */
+	color:#D5D5D5;
+	font-size:96px;
+	font-family:"Century Gothic", Futura, Verdana, sans-serif;
+	text-align:center;
+	font-weight:lighter;
+	margin:0 auto;
+}
+
+/* 最外层容器样式 */
+#wrapper {
+    width: 800px;
+	padding:0;
+    background-image: url('img/wrapper-background.png');
+    background-repeat: repeat;
+	margin: 0px auto;
+	padding:0px;
+    /* todo */
+}
+
+/* 头部header的样式 */
+/* todo */
+
+#header nav ul {
+    border-bottom: dotted 1px #ddd;
+}
+
+/*导航栏nav链接的样式*/
+/*todo*/
+.navigator a {
+	text-align:left;	
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+/* 相册样式 */
+/*todo*/
+
+#gallery {
+	background-color:#DFF5FF;
+}
+
+.gallery-heading h2 {
+    font-weight: lighter;
+    font-size: 28px;
+    color: #61AABC;
+}
+
+.gallery-heading .gallery-icon {
+    text-align: center;
+	height:60px;
+	
+}
+.gallery-icon img {
+	width:60px;
+}
+/*相册中icon的样式*/
+/* todo */
+
+
+/*相册中时间的样式*/
+/* todo */
+.gallery-heading .time {
+	text-align:center;	
+	color:#656565;
+	font-weight:lighter;
+	font-size:15px;
+}
+
+/*评论输入框*/
+#comment {
+    border-bottom: 1px solid #bbb;
+}
+
+.comment-textarea img {
+    border-radius: 3px;
+}
+
+.comment-textarea textarea.comment {
+    height: 54px;
+    width: 708px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #999;
+    border: 1px solid #bbb;
+	border-radius:3px;
+    /* todo */
+}
+
+button.comment-submit {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+	background-color:#e6e6e6;
+	border-style:solid;
+	border-width:1px;
+	border-color:#ccc;
+	width:50px;
+	height:30px;
+    /* todo */
+
+}
+
+/*评论列表*/
+a {
+    font-size: 13px;
+    color: #fff;
+	text-decoration:none;
+}
+
+/* todo */
+
+.comment-item {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.comment-item p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.5em;
+}
