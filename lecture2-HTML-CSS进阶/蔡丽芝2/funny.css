@@ -1,0 +1,159 @@
+/**滑稽表情*/
+.face {
+    width: 400px;
+    height: 420px;
+    border-radius: 200px / 210px;
+    background: -o-radial-gradient(circle,#fbe079 10%,#EDB81B); 
+    background: -moz-radial-gradient(circle,#fbe079 10%,#EDB81B); 
+    background: radial-gradient(circle,b#fbe079 10%,#EDB81B); 
+    background: -webkit-radial-gradient(circle,#fbe079 10%,#EDB81B); 
+    background: #EDB81B \9 ;
+    box-shadow: 1px 1px 10px #eeb94f;
+	animation-name: spin; 
+	animation-duration: 3s; /* 3 seconds */
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+    position: relative;
+}
+
+.face:hover {
+    animation-play-state: paused;
+}
+
+@keyframes spin {
+	from { transform: rotate(0deg);}
+    to   { transform: rotate(360deg);}
+}
+
+
+/**眉毛**/
+.right-eyebrow, .left-eyebrow {
+    position: absolute;
+    width: 84px;
+    height: 64px;
+    top: 45px;
+    border: 0 solid transparent;
+    border-top: 17px solid #080808;
+}
+
+.right-eyebrow {
+    left: 23px;
+    border-radius: 86% 165% 11% 11%;
+}
+
+.left-eyebrow {
+    right: 23px;
+    border-radius: 149% 89% 137% 86% ;
+}
+
+/**眼睛**/
+.left-eye, .right-eye {
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 95px;
+    overflow: hidden;
+}
+
+.left-eye {
+    left: 20px;
+}
+
+.right-eye {
+    right: 20px;
+}
+
+.e-left, .e-right {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.e-right {
+    left: auto;
+    right: 0;
+}
+
+.e-top, .e-bottom {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 150px/50px;
+    position: absolute;
+    top: 10px;
+    left: -2px;
+    border-bottom: none;
+    z-index: 1;
+   
+}
+.e-bottom {
+    width: 120px;
+    left: 13px;
+    height: 25px;
+    top: 42px;
+}
+.e-white {
+    height: 130px;
+    width: 114px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    left: 23px;
+    top: -49px;
+}
+
+.e-white:before {
+	content: "";
+	width: 182px;
+	height: 147px;
+	position: absolute;
+	border-radius: 45%;
+	box-sizing: border-radius;
+	border: 30px solid #fff;
+	left: -67px;
+	top: 60px;
+}
+.e-black {
+    position: absolute;
+    height: 32px;
+    width: 30px;
+    background: #000;
+    border-radius: 50%;
+    top: 17px;
+    left: 5px;
+}
+
+/**腮红**/
+.right-pink, .left-pink {
+    position: absolute;
+    top: 152px;
+    width: 126px;
+    height: 36px;
+    border-radius: 65px/25px;
+    background: #F4BB9E;
+    box-shadow: 6px 4px 22px #F4BBAF;
+    opacity: 0.5;
+}
+
+.left-pink {
+    left: 20px;
+}
+
+.right-pink {
+    right: 20px;
+}
+
+.mouse {
+    position: absolute;
+    width: 346px;
+    height: 350px;
+    top: 20px;
+    left: 25px;
+    border-radius: 50%;
+    border-bottom: #824816 solid 15px;
+}

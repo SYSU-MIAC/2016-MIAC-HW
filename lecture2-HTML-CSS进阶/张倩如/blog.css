@@ -1,0 +1,207 @@
+* {
+    font-family: 'Microsoft YaHei', Helvetica, sans-serif;
+}
+
+body {
+    /* todo */
+    background-image: url('./img/background.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: 'Meddon';
+    font-size: 96px;
+    color: #D5D5D5;
+    margin-bottom: 40px;
+}
+
+/* 最外层容器样式 */
+#wrapper {
+    width: 850px;
+    background-image: url('./img/wrapper-background.png');
+    background-repeat: repeat;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+/* 头部header的样式 */
+/* todo */
+
+#header nav {
+	height: 100px;
+	text-align: center;
+}
+
+#header nav ul {
+    /*border-bottom: dotted 1px #ddd;*/
+    display: inline-block;
+    *display: inline;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header nav ul li {
+	float: left;
+	text-align: center;
+    list-style-type: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: rgba(98,170,187,0.5);
+}
+
+#header nav ul a {
+	display: block;
+	padding: 0px 2em;
+	line-height: 25px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.text {
+    font-weight: bold;
+}
+
+/*导航栏nav链接的样式*/
+/*todo*/
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* 相册样式 */
+/*todo*/
+
+#gallery {
+    background-color: #DFF5FF;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gallery-heading h2 {
+    font-weight: normal;
+    font-size: 28px;
+    color: #61AABC;
+    margin-bottom: 0 auto;
+}
+
+.gallery-heading .gallery-icon {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*相册中icon的样式*/
+
+.gallery-icon img {
+    height: 60px;
+    position: relative;
+    top: -25px;
+}
+
+.time {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+#gallery ul {
+    list-style: none;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-left: 0;
+}
+
+#gallery ul li {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery-slides .gallery-slide img{
+    margin: 0 auto;
+}
+
+
+
+/*评论输入框*/
+#comment {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    height: 100px;
+}
+
+.comment-textarea img {
+    border-radius: 3px;
+    height: 50px;
+    width: 50px;
+}
+
+.comment-textarea textarea.comment {
+    height: 45px;
+    width: 704px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #999;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+}
+
+button.comment-submit {
+    position: absolute;
+    right: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    background-color: #e6e6e6;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+/*评论列表*/
+
+#comments-list {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+.comments-count {
+    font-size: 13px;
+    color: #fff;
+}
+
+.comments {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.comment-item {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.comment-item p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.number {
+    color: #d32;
+}

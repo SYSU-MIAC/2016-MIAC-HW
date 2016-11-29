@@ -1,0 +1,157 @@
+* {
+    font-family: 'Microsoft YaHei', Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('./img/background.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    
+    /* do */
+}
+
+h1, h2 {
+    text-align:center;
+    /* do */
+}
+
+/* 最外层容器样式 */
+#wrapper {
+    width: 1000px;
+    background-image: url('./img/wrapper-background.png');
+    background-repeat: repeat;
+    margin:0 auto;
+    box-shadow: 2px 2px 2px #FFFFFF;
+    /* do */
+}
+
+/* 头部header的样式 */
+h1{
+    font-family: "Meddon", Futura, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 96px;
+    color: #D5D5D5;
+    margin: 0;
+}
+
+#header nav ul {
+    border-bottom: dotted 1px #ddd;
+    text-align: center;
+  
+}
+
+.hello{
+    color: white;
+    text-decoration:none;
+    border:1px solid #ffffff;border-radius: 10px 10px 10px 10px;
+
+
+}
+/*导航栏nav链接的样式*/
+/*do*/
+
+/* 相册样式 */
+/*todo*/
+
+#gallery{
+    background-color: #DFF5FF;
+    box-shadow: 2px 2px 2px #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    text-align:center;
+
+}
+
+.navigator{
+    text-align:center;
+
+}
+
+.gallery-heading h2 {
+    font-weight: lighter;
+    font-size: 28px;
+    color: #61AABC;
+}
+
+.gallery-heading .gallery-icon {
+    text-align: center;
+}
+
+/*相册中icon的样式*/
+/* do */
+.gallery-icon img{
+    width: 60px;
+    height: 60px;
+    position: relative;  
+    top: -30px;  
+} 
+
+/*相册中时间的样式*/
+/* do */
+.time{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #656565;
+}
+
+/*评论输入框*/
+#comment {
+    width: 80%;
+    margin: 0 auto;
+    text-align:right;
+}
+
+.comment-textarea img {
+    border-radius: 3px;
+}
+
+.comment-textarea textarea.comment {
+    height: 45px;
+    width: 735px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #999;
+    border: 1px solid #bbb;
+    border-radius:3px;
+    /* do */
+}
+
+button.comment-submit {
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    background-color: #e6e6e6;
+    border: 5px solid #e6e6e6;
+    cursor: pointer;
+
+    /* do */
+
+}
+
+/*评论列表*/
+.comments-count {
+    font-size: 13px;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+/* todo */
+.mytext{
+    color:#d32;
+}
+
+.comment-item {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.comment-item p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.5em;
+}

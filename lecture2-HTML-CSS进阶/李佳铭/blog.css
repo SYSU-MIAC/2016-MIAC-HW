@@ -1,0 +1,195 @@
+* {
+    font-family: 'Microsoft YaHei', Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'Meddon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Meddon'), url('meddon-font.woff') format('woff');
+}
+
+body {
+    background-image: url('./img/background.jpg');
+    background-repeat: repeat;	
+    background-attachment:fixed;
+    /* todo */
+}
+
+h1, h2 {
+	text-align: center;
+    /* todo */
+}
+
+
+/* 最外层容器样式 */
+#wrapper {
+    width: 800px;
+    background-image: url('./img/wrapper-background.png');
+    background-repeat: repeat;
+    margin-left: 200px;
+    box-shadow: 3px 3px 5px #888888;
+    /* todo */
+}
+
+#header h1{
+    font-family: "Meddon";	
+    font-weight: lighter;
+    font-size: 60px;
+    color: #D5D5D5；
+
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+#header{
+	color:white;
+}
+/* 头部header的样式 */
+/* todo */
+
+#header nav ul {
+    /*border-bottom: dotted 1px #ddd;*/
+    text-align:center;
+    padding:30px;
+}
+
+#header nav ul a{
+    display:inline-block;
+    border-bottom: dotted 1px #ddd;
+    padding:5px 20px;
+    border:2px solid;
+    border-radius:25px; 
+}
+
+/*#header nav ul a{
+    display:block;
+    border-bottom: dotted 1px #ddd;
+    padding:100px;
+}*/
+/*导航栏nav链接的样式*/
+/*todo*/
+#gallery {
+	background-color: #DFF5FF;
+    margin:0 auto;
+    width:600px;
+    height:1400px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+/* 相册样式 */
+/*todo*/
+
+.gallery-heading h2 {
+    font-weight: lighter;
+    font-size: 28px;
+    color: #61AABC;
+}
+
+ .gallery-icon {
+    margin:0 auto;
+    width:60px;
+    height:20px;
+}
+
+
+ .gallery-icon img{
+    margin-top:-30px;
+    width:60px;
+	height:60px;
+}
+
+.gallery-slides   {
+    dispaly:block;
+    margin:0 auto;'
+    width:600px;
+    height:1300px;
+}
+
+.gallery-slides li img {
+    display:block;
+    margin:0 auto;
+    width:500px;
+    height:360px;
+}
+
+
+/*相册中icon的样式*/
+/* todo */
+.time{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 15px;
+	color: #656565;		
+}
+
+/*相册中时间的样式*/
+/* todo */
+
+
+/*评论输入框*/
+#comment {
+    border-bottom: 1px solid #bbb;
+    margin:50px;
+}
+
+.comment-textarea img {
+    border-radius: 3px;
+}
+
+.comment-textarea textarea.comment {
+    height: 54px;
+    width: 708px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #999;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    /* todo */
+}
+
+button.comment-submit {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    background-color: #e6e6e6;
+    border:1px solid #ccc;
+    /* todo */
+
+}
+
+ button.comment-submit:hover,visited { 
+ 	cursor:pointer
+ }
+
+/*评论列表*/
+.comments-count {
+    font-size: 13px;
+    color: #fff;
+
+}
+
+#number{
+	color: #d32;
+}
+/* todo */
+
+.comment-item {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.comment-item p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.5em;
+}

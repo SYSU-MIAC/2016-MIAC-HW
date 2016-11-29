@@ -1,0 +1,166 @@
+.face{
+	margin-left:0 ;
+    margin-right:0 ;
+    margin-top:100px; 
+    width: 300px;
+    height: 259px;
+    background-color:#754a37;
+    border:0 solid transparent;
+    border-radius: 150px/129.5px;
+    z-index: 1;
+    position: relative;
+    top:81px;
+}
+
+.area{
+    margin-left:0 ;
+    margin-right:0 ;
+    margin-top:100px; 
+    width: 300px;
+    height: 259px;
+    position: relative;
+    top:-275px;
+}
+
+
+.ears{
+	height: 82px;
+	width: 300px;
+	margin: 0 auto;
+	position:relative;
+	bottom:15px;
+}
+
+.left-ear{
+	width: 75px;
+	height: 81px;
+	border-radius: 50%;
+	background-color: #754a37;
+	margin-left:34px;
+	margin-right: 40px;
+	float: left;
+	z-index:0;
+}
+
+.left-ear-small{
+	width: 60px;
+	height: 60px;
+	border:0 solid transparent;
+	border-radius: 50%;
+	background-color: #4e2b27;
+	margin-top: 10px;
+	margin-left: 9px;
+	z-index: 2;
+}
+
+.right-ear{
+	width: 75px;
+	height: 81px;
+	border-radius: 50%;
+	background-color: #754a37;
+	margin-left: 40px;
+	float: left;
+	z-index:0;
+}
+
+.right-ear-small{
+	width: 60px;
+	height: 60px;
+	border:0 solid transparent;
+	border-radius: 50%;
+	background-color: #4e2b27;
+	margin-top: 10px;
+	margin-left: 9px;
+	z-index: 2;
+}
+
+.eyes{
+	width: 84px;
+	height: 25px;
+	margin:auto;
+	position:relative;
+	z-index: 3;
+}
+
+.eye{
+	width: 25px;
+	height: 25px;
+	border:0 solid transparent;
+	background-color: #000000;
+	border-radius: 12.5px;
+	margin: 0 8.5px 0 8.5px;
+	float:left;
+}
+
+.white{
+	margin:0 auto;
+	width:75px;
+	height: 95px;
+	background-color: #dfc3b7;
+	z-index: 1;
+	border:0 solid transparent;
+	border-radius: 37.5px/47.5px;
+	position:relative;
+	top:px;
+}
+
+.nose1{
+	margin:auto;
+	width:0;
+	height:0;
+	position:relative;
+	top:-2px;
+    transform: rotate(225deg);
+    border-width: 14px;
+    border-color: #000 transparent transparent #000;
+    border-style: solid;
+    border-top-left-radius: 12px;
+    border-top-right-radius:14px;
+	border-bottom-left-radius:14px;	
+}
+.nose2{
+	margin: auto;
+	width: 28px;
+	height: 15px;
+	border:0 solid transparent;
+	background-color: black;
+	border-radius:50%;
+	position: relative;
+	bottom: 24px;
+}
+
+.line1{
+	margin:auto;
+	width:7px;
+	height: 25px;
+	background-color: black;
+	position: relative;
+	bottom: 17px;
+}
+
+.line2{
+	margin:auto;
+	width: 7px;
+	height: 31px;
+	background-color: black;
+	border:0 solid transparent;
+	border-radius: 5px;
+	position: relative;
+	bottom:22px;
+	right:8px;
+	transform:rotate(37deg);
+}
+
+.line3{
+	margin:auto;
+	width: 7px;
+	height: 23px;
+	background-color: black;
+	border:0 solid transparent;
+	border-radius: 5px;
+	position: relative;
+	bottom:52px;
+	left:8px;
+	transform:rotate(-45deg);
+}
+

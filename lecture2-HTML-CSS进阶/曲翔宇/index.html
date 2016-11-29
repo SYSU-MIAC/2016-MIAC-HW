@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style type="text/css">
+        .head {
+            width: 400px;
+            height: 400px;
+            position: relative;
+            
+            
+            
+            background: #F7E74A;
+            -moz-border-radius: 200px;
+            -webkit-border-radius: 200px;
+            border-radius: 200px;
+            -webkit-animation-name:changeColor;
+            -webkit-animation-duration:5s;
+            -webkit-animation-timing-function:linear;
+            -webkit-animation-delay:1.5s;
+            -webkit-animation-iteration-count:infinite;
+            
+            -webkit-transition:-webkit-transform 2s;
+        }
+        
+        .head:hover{
+            -webkit-transform:rotate(360deg);
+        }
+         @-webkit-keyframes changeColor {
+            0% {background: #F7E74A; left: 0px;top:0px;}
+            25% {background: red; left:600px;top:0px;}
+            50% {background: green; left: 600px;top: 250px;}
+            75% {background: blue; left: 0px;top: 250px;}
+            100% {background: black; left:0px;top: 0px; }
+        }
+       
+        
+        .smile {
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            margin-left: -175px;
+            width: 350px;
+            height: 300px;
+            border-radius: 50%;
+            box-shadow: 0 15px 0 0 #630A10;
+        }
+        
+        .nbrow {
+            position: absolute;
+            top: 7%;
+            left: 10%;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: -5px -10px 0 0 #630A10;
+        }
+        
+        .rbrow {
+            position: absolute;
+            top: 7%;
+            right: 10%;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: 5px -10px 0 0 #630A10;
+        }
+        
+        .leye {
+            position: absolute;
+            top: 10%;
+            left: 0%;
+            width: 40%;
+            height: 15%;
+            overflow: hidden;
+        }
+        
+        .leye:after,
+        .leye:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            border-radius: 50%;
+            background: #FF847C;
+            height: 100%;
+            width: 97%;
+        }
+        
+        .leye:after {
+            background: white;
+            height: 80%;
+            top: 60%;
+            left: 0%;
+        }
+        
+        .reye {
+            position: absolute;
+            top: 10%;
+            right: 0%;
+            width: 40%;
+            height: 15%;
+            overflow: hidden;
+        }
+        
+        .reye:after,
+        .reye:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            border-radius: 50%;
+            background: #FF847C;
+            height: 100%;
+            width: 97%;
+        }
+        
+        .reye:after {
+            background: white;
+            height: 80%;
+            top: 60%;
+            right: 0%;
+        }
+        
+        .lball {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 8%;
+            top: 21%;
+            background: #630A10;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+        }
+        
+        .rball {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            right: 30%;
+            top: 21%;
+            background:#630A10;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+        }
+        
+        .lface {
+            width: 100px;
+            height: 50px;
+            position: absolute;
+            top:35%;
+            left: 2%;
+            background: #FFCFDF;
+            -moz-border-radius: 50px / 25px;
+            -webkit-border-radius: 50px / 25px;
+            border-radius: 50px / 25px;
+        }
+        
+        .rface {
+            width: 100px;
+            height: 50px;
+            position: absolute;
+            top:35%;
+            right: 2%;
+            background: #FFCFDF;
+            -moz-border-radius: 50px / 25px;
+            -webkit-border-radius: 50px / 25px;
+            border-radius: 50px / 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="smile"></div>
+
+        <div class="rbrow"></div>
+        <div class="nbrow"></div>
+
+        <div class="leye"></div>
+        <div class="lball"></div>
+        <div class="reye"></div>
+        <div class="rball"></div>
+
+        <div class="lface"></div>
+        <div class="rface"></div>
+    </div>
+</body>
+
+</html>

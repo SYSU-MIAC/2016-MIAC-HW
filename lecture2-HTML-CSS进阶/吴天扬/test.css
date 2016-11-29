@@ -1,0 +1,136 @@
+* {
+	margin: 0px;
+}
+h1 {
+	font-family: "Meddon",Serif;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	overflow: visible;
+}
+
+body {
+	background-image: url("img/background.jpg");
+	background-attachment: fixed;
+	margin: 50px 0px;
+}
+
+#wrapper {
+	width: 800px;
+	height: 1100px;
+	background-image: url('./img/wrapper-background.png');
+	background-repeat: repeat;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.navigator {
+	display: block;
+	color: white;
+	list-style-type: none;
+	padding: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	
+}
+
+.navigatorlist {
+	margin: 0px 5px;
+	padding: 2px 20px;
+	display: inline-block;
+	border: 2px solid white;
+	border-radius: 10px;
+	text-align: center;
+}
+#gallery {
+	background-color:#DFF5FF;
+	margin: 40px 30px 0px 30px;
+	padding-bottom: 50px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.gallery-icon img{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: -17px;
+	margin-bottom: 20px;
+}
+
+.gallery-heading {
+	text-align:center;
+}
+
+.gallery-heading h2 {
+    font-weight: lighter;
+    font-size: 28px;
+    color: #61AABC;
+}
+
+.gallery-time {
+	text-align:center;
+	font-weight:lighter;
+	font-size:15px;
+	color:#656565;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.gallery-slides img {
+	margin-left: 50px;
+}
+#comment {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+.comment-textarea textarea.comment {
+    height: 48px;
+    width: 708px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #999;
+    border: 1px solid #bbb;
+	border-radius:3px;
+	padding: 0px;
+    /* todo */
+}
+
+
+.comment-textarea img {
+    border-radius: 3px;
+}
+
+.comment-botton {
+	cursor: pointer;
+	font-weight: 900;
+}
+
+#comment-list {
+	color: white;
+	margin: 0px 20px;
+}
+
+.comments {
+
+	padding: 20px 0px;
+	border-color: white black white black;
+	border-width: 2px;
+	border-style: solid;
+	list-style-type: none;
+}
+
+.comments-count {
+	margin-bottom: 10px;
+}
+
+.comments-count span {
+	color: #d32;
+}
+
+.comment-botton {
+	float: right;
+	margin-right: 30px;
+}
