@@ -1,0 +1,36 @@
+<!DOCTYPE>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>打地鼠</title>
+		<link rel="stylesheet" type="text/css" href="test.css" />
+		<script type="text/javascript" src="test.js"></script> 
+	</head>
+	<body onload="create()">
+		<div id="title">
+			<h1>打地鼠</h1>
+			<p>操作说明：用鼠标点击。当前分数是：<span id="score">0</span>分。剩余的时间：<span id="time">0</time>秒。</p>
+		</div>
+		<div id="list">
+			<form>
+				请选择难度
+				<select id="difficulty" onchange="changeDifficulty();">
+					<option value="hard">Hard</option>
+					<option value="middle">Middle</option>
+					<option value="easy">Easy</option>
+					<option value="relax">Relax</option>
+				</select>
+				请输入游戏时间：<input type="txt" id="WantTime" value="10">
+			</form>
+			<button id="begin" type="button" onclick="begin()">开始</button>
+			<button id="end" type="button" onclick="stop()">结束</button>
+		</div>
+
+		<div id="wrapper">
+		
+		</div>
+
+	</body>
+
+</html>

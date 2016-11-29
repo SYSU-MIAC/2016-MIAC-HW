@@ -1,0 +1,41 @@
+#header {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+#content {
+  width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  margin-right: 10px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+table:hover {
+  cursor: url('img/honr.png'), auto;
+}
+
+table:active {
+  cursor: url('img/chi.png'), auto;
+}
+
+td {
+  width: 120px;
+  height: 120px;
+  background-color: #b8f0fe;
+  border-radius: 10px;
+}
+
+.button {
+  float: right;
+  margin: 10px;
+  font-size: 20px;
+}

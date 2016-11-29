@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>打地鼠</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script type = "text/javascript" src = "act.js"></script>
+  </head>
+  <body>
+    <div id = "header">
+      <h1>打地鼠</h1>
+      <p>
+      游戏规则：点击右下角开始游戏，每次游戏起始时间为60秒。<br />
+      每0.5秒将出现一只地鼠，每只地鼠存留1.2秒。用鼠标点击出现的地鼠，<br />
+      打到一个地鼠计100分，漏掉一个底数扣100分，打错位置时间减5秒。
+      </p>
+    </div>
+    <div id = "content">
+      <form name = "data">
+        <label>时间</label> 
+          <input type = "text" name = "time" size = "5">
+        <label>得分</label>
+          <input type = "text" name = "score" size = "5">
+      </form>
+      <table>
+        <tr>
+          <td id = "td[0]" onclick = "hit(0)"></td>
+          <td id = "td[1]" onclick = "hit(1)"></td>
+          <td id = "td[2]" onclick = "hit(2)"></td>
+          <td id = "td[3]" onclick = "hit(3)"></td>
+        </tr>
+        <tr>
+          <td id = "td[4]" onclick = "hit(4)"></td>
+          <td id = "td[5]" onclick = "hit(5)"></td>
+          <td id = "td[6]" onclick = "hit(6)"></td>
+          <td id = "td[7]" onclick = "hit(7)"></td>
+        </tr>
+        <tr>
+          <td id = "td[8]" onclick = "hit(8)"></td>
+          <td id = "td[9]" onclick = "hit(9)"></td>
+          <td id = "td[10]" onclick = "hit(10)"></td>
+          <td id = "td[11]" onclick = "hit(11)"></td>
+        </tr>
+        <tr>
+          <td id = "td[12]" onclick = "hit(12)"></td>
+          <td id = "td[13]" onclick = "hit(13)"></td>
+          <td id = "td[14]" onclick = "hit(14)"></td>
+          <td id = "td[15]" onclick = "hit(15)"></td>
+        </tr>
+      </table>
+      <div class = button>
+        <input class = "button" type = "button" value = "开始" onclick = "StartGame()">
+      <div>
+    </div>
+  </body>
+</html>

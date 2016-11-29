@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打地鼠</title>
+</head>
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #head {
+        position: absolute;
+        left: 42.5%;
+        top: 25px;
+    }
+    
+    .brain {
+        margin: 15px;
+    }
+    
+    #neck {
+        position: absolute;
+        left: 39%;
+        top: 70px;
+    }
+    
+    #wrapper {
+        margin: 100px auto;
+        width: 404px;
+        height: 404px;
+    }
+    
+    #wrapper div {
+        height: 200px;
+        width: 200px;
+        float: left;
+        border: solid 1px black;
+    }
+</style>
+
+
+<body>
+    <div id="head">
+        <input class="brain" type="button" value="开始游戏" onclick="gameStart()">
+        <input class="brain" type="button" value="结束游戏" onclick="gameOver()">
+    </div>
+
+    <div id="neck">
+        <form name="form1">
+            <label>分数：</label>
+            <input type="text" name="score" size="5">
+
+            <label>倒计时：</label>
+            <input type="text" name="remtime" size="5">
+        </form>
+    </div>
+
+    <div id="wrapper">
+        <div id="d0" onclick="hit(0)"></div>
+        <div id="d1" onclick="hit(1)"></div>
+        <div id="d2" onclick="hit(2)"></div>
+        <div id="d3" onclick="hit(3)"></div>
+    </div>
+</body>
+
+
+<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('k 8=h,m=g,d=g,7=p,2=0,l=g;6 y(){A(k i=0;i<=3;i+=1){5.b("d"+i).9=\'\'}}6 v(){E(m);B(l)}6 o(){v();u("D，F"+2+"!");8=h;y();2=0;7=p}6 n(){5.c.C.e=7;a(7===0){o()}j{7=7-1;l=w("n()",t)}}6 z(f){a(8===h){u("G！")}j{a(5.b("d"+f).9!=\'\'){2+=1;5.c.2.e=2;5.b("d"+f).9=\'\'}j{2-=1;5.c.2.e=2}}}6 s(){a(8){k q=r.P(r.T()*4);d=5.b("d"+q);d.9="<J I=\'H.K\' N=\'M:x;L:x\'>";w("d.9=\'\'",O)}}6 Q(){8=S;m=R("s()",t);5.c.2.e=2;n()}',56,56,'||score|||document|function|countDown|playing|innerHTML|if|getElementById|form1||value|id|null|false||else|var|timeID|interID|timeShow|gameOver|30|current|Math|show|1000|alert|timeStop|setTimeout|200px|clearMouse|hit|for|clearTimeout|remtime|时间到啦|clearInterval|你的得分是|请点击开始游戏|dishu|src|img|jpg|width|height|style|900|floor|gameStart|setInterval|true|random'.split('|'),0,{}))
+
+</script>
