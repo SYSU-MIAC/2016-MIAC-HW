@@ -1,0 +1,41 @@
+<!DOCTYPE>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>2048</title>
+		<link rel="stylesheet" type="text/css" href="test.css" />
+		<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="test.js"></script> 
+	</head>
+	<body onload="create()">
+		<div id="header">
+			<h1>2048</h1>
+			<br/>
+			<p>操作说明：使用键盘的wasd或上下左右进行操控，Esc复原。</p>
+
+		</div>
+		<div id="function">
+			<p>当前分数为：<span id="score">0</span></p>
+			<button id="reset" type="button" onclick="reset()">重置</button><!-- debug -->
+			<button id="before" type="button" onclick="before()">回溯</button><!-- debug -->
+			<button id="special" type="button" onclick="special()">特殊地图</button><!-- debug 定制地图 -->			
+		</div>
+		
+		<div id="wrapper">
+			
+		</div><!-- debug -->
+		<div id="debug">
+			<div id="monitor1">
+			</div>
+			<div id="monitor2">
+			</div>
+			<div id="monitor3">
+			</div>
+			<div id="monitor4">
+			</div>
+
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+	background-color: #faf8ef;
+}
+#header {
+	text-align: center;
+	font-size:	1em;
+}
+#header p {
+	margin: 5px;
+}
+h1 {
+	margin-bottom: 10px;
+	font-size:	3em;
+}
+
+#function {
+	text-align:	center;
+	font-size:	1em;
+}
+#function p {
+	display: inline-block;
+	margin: 20px 40px;
+}
+
+#wrapper {
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 5%;
+	margin: 0 auto;
+	height:	460px;
+	width:	460px;
+	background-color: #bbada0;
+}

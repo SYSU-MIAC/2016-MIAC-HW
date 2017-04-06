@@ -1,0 +1,22 @@
+.wrapper {
+	margin: 0 auto;
+	text-align: center;
+}
+
+table{
+	margin: 0 auto;
+	text-align: center;
+}
+
+td{
+	width: 150px;
+	height: 150px;
+	background: green;
+	border-radius: 10px;
+}
+
+
+
+table:hover {
+  cursor: url('img/111.png') , auto;
+}

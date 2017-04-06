@@ -1,0 +1,90 @@
+<!--Doctype html-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>2048</title>
+        <script type="text/javascript" src="./JS/jquery.js"></script>
+        <script type="text/javascript" src="./JS/play.js"></script> 
+        <link rel="stylesheet" href="./CSS/2048.css">
+        <link rel="stylesheet" href="./CSS/reset.css">
+    </head>
+    <body>
+        <div class="public-container">
+            <div class="top">
+                <div class="heading clearfloat">
+                    <h1>2048</h1>
+                    <div class="record">
+                          <span>Score:</span><input id="score" type="text">
+                    </div>
+                </div>
+                <div class="about_game clearfloat">
+                    <p>Join the numbers and get to the <span>2048 tile!</span></p>
+                    <input type="button" onclick="game.start()" value="New Game">
+                </div>
+            </div>
+            <div class="middle">
+                <!--背景小窗-->
+                <div class="grid-row clearfloat">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row clearfloat">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row clearfloat">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="clearfloat">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <!--前景小窗-->
+                    <div id="c00" class="cell "></div>
+                    <div id="c01" class="cell"></div>
+                    <div id="c02" class="cell"></div>
+                    <div id="c03" class="cell"></div>
+            
+                    <div id="c10" class="cell"></div>
+                    <div id="c11" class="cell"></div>
+                    <div id="c12" class="cell"></div>
+                    <div id="c13" class="cell"></div>
+
+
+                    <div id="c20" class="cell"></div>
+                    <div id="c21" class="cell"></div>
+                    <div id="c22" class="cell"></div>
+                    <div id="c23" class="cell"></div>
+        
+       
+                    <div id="c30" class="cell"></div>
+                    <div id="c31" class="cell"></div>
+                    <div id="c32" class="cell"></div>
+                    <div id="c33" class="cell"></div>
+
+                    <!--gameOver-->
+                    <div id="gameOver">
+                        <!--背景-->
+                        <div></div>
+                        <div class="gameOver">Game Over!<br/>Score: <span id="finalScore"></span><br/><span class="again" onclick="game.start()">Try Again!</span></div>
+                    </div>
+                    <!--hasWin-->
+                    <div id="hasWin" class="hanWin">Congratulation !<br/> You are winner ！</div>
+            </div>
+            <div class="bottom">
+            <p><span class="big">HOW TO PLAY: </span>Use your <span class="keys">arrow keys</span>
+            to move the titles. When two tiles with the same number touch. they <span class="merge">
+            merge into one!</span></p>
+            </div>
+        </div>
+    </body>
+</html>

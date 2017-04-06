@@ -1,0 +1,71 @@
+/*reset*/
+body,p,div,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,dl,dt,dd,input,ul,ol,li {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: none;
+}
+li {
+    list-style: none;
+}
+
+.clearfx { 
+	zoom: 1;
+}
+.clearfx:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/**contain**/
+.contain {
+    width:  500px;
+    margin:  20px auto;
+}
+
+.contain h1 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+.game {
+    margin-top: 60px;
+}
+
+.game .hole {
+    float: left;
+    width: 100px;
+    height: 70px;
+    margin-right: 46px;
+    margin-bottom: 30px;
+    border-radius: 50px / 25px;
+    background: #cacaca;
+}
+
+.game:hover {
+    cursor: url("../img/chuizi.png"),auto;
+}
+.game:active {
+    cursor: url("../img/chui.png"),auto;
+}
+
+.game .free_r {
+    margin-right: 0;
+}
+
+.start {
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.button_star {
+    font-size: 20px;
+
+}
